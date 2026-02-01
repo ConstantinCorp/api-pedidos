@@ -5,8 +5,8 @@ const app = express();
 app.use(express.json());
 
 // CONFIGURA ESTO
-const TELEGRAM_TOKEN = "AQUI_TU_TOKEN";
-const CHAT_ID = "AQUI_TU_CHAT_ID";
+const TELEGRAM_TOKEN = "8502434976:AAFPgWE903CLlcCZZIxjefAlW2qibZD9rTw";
+const CHAT_ID = "8502434976";
 
 // ENDPOINT PARA RECIBIR PEDIDOS
 app.post("/pedido", async (req, res) => {
